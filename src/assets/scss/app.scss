@@ -1,3 +1,111 @@
 body {
-    background: #a1dae3 url("../media/webpacklogo.png") repeat;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: #8df7a2;
+}
+
+header {
+    background: url("../media/background.jpg");
+}
+
+.logo {
+    text-align: left;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width: 700px) {
+    .grid {
+        font-size: 2em;
+        color: #0066ff;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    color: #fff;
+    padding: 10px;
+    border: 2px solid darkgreen;
+    margin: 20px;
+    font-size: 30px;
+    background: #004d1a;
+}
+
+form {
+    text-align: center;
+    font-size: 10px;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.grid-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    text-align: center;
+}
+
+span {
+    font-style: italic;
+    font-weight: 600px;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: #235443;
+    height: 30vh;
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    color: white;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 30px;
+    color: #f2f2f2;
+}
+
+.listing {
+    text-align: center;
+}
+
+.last-container {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    justify-content: right;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
